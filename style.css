@@ -225,11 +225,29 @@ button:focus, input:focus, .close:focus {
 .close {
   position: absolute;
   top: 10px;
-  right: 18px;
-  font-size: 32px;
-  font-weight: bold;
+  right: 14px;
+  font-size: 28px;
+  font-weight: 400;
   color: #0b3d91; /* NASA blue */
+  background: none;
+  border: none;
   cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  transition: color 0.2s;
+  box-shadow: none;
+  border-radius: 0;
+  width: auto;
+  height: auto;
+  display: inline;
+}
+
+.close:hover,
+.close:focus {
+  color: #fc3d21; /* NASA red */
+  background: none;
+  outline: 2px solid #0b3d91;
+  border-radius: 0;
 }
 
 /* Space fact styling */
